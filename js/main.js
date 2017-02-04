@@ -1,4 +1,4 @@
-(function(){
+(function (){
   var httpRequest,
   ajaxText = document.querySelector('.placeholder'),
   ajaxButton = document.querySelector('.wrapper');
@@ -15,7 +15,7 @@
     httpRequest.open('GET', url);
     httpRequest.send();
   }
-
+//i need to change stuff blah blah blah
   function showResults() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) { // good to go
       if(httpRequest.status === 200) { // status ok good to work with
